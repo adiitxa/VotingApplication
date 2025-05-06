@@ -3,6 +3,7 @@ const connect = mongoose.connect("mongodb://localhost:27017/VoteingApp");
 
 
 
+
 if(!connect)
 {
   console.log("Database cannot be Connected");
