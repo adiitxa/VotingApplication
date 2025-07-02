@@ -8,6 +8,7 @@ const { jwtMiddleWere, genrateToken} = require("../token");
 
 
 
+
 router.post("/login", async (req, res) => {
   try {
     const { adharCardNumber, password } = req.body;
